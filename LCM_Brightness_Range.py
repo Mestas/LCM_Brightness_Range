@@ -14,7 +14,7 @@ st.set_page_config(
 st.sidebar.write("<h4 style='color: blue;'>本工具可以计算影响因子为5~15个的亮度波动概率分布</h4>", unsafe_allow_html=True)
 
 # # # 工具名称、版本号
-st.write("# 亮度波动概率计算工具 #")
+st.write("# LCM亮度波动概率计算工具 #")
 col1, col2 = st.columns([2, 1])
 with col2:
     st.write("<h5 style='color: blue;'>版本号：V1.1</h5>", unsafe_allow_html=True)
